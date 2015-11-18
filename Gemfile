@@ -12,6 +12,7 @@ gem 'puma'
 gem 'tux'
 
 gem 'nokogiri'
+gem 'rmagick'
 
 group :development, :test do
   gem 'pry'

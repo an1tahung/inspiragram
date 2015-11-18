@@ -10,6 +10,7 @@ require 'sinatra/contrib/all' # Requires cookies, among other things
 
 require 'nokogiri'
 require 'open-uri'
+require 'rmagick'
 
 require 'pry'
 
