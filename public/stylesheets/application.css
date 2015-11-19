@@ -1,0 +1,24 @@
+h1 {text-align: center;}
+
+.quote {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+
+.button,
+button,
+input[type="button"] { position: relative; }
+
+.inspirebutton { text-align: center; }
+
+.container {
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+}
