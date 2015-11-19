@@ -4,15 +4,10 @@ helpers do
     @errors = session[:errors] if session[:errors]
     session[:errors] = nil
   end
-
-  def load_image
-    @inspireimage = PexelScraper.get_random_pexel
-  end
 end
 
 before do
   handle_errors
-  load_image
 end
 
 get '/' do
@@ -21,6 +16,7 @@ end
 
 get '/inspiration' do
   @quote = Quote.find_random
+  @image = Image.find_random
   if request.xhr?
     erb :'inspiration/index', layout: nil
   else
