@@ -7,5 +7,4 @@ class Quote < ActiveRecord::Base
   def self.find_random
     find(rand(1..count))
   end
-
 end
