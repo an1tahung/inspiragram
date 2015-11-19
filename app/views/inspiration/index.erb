@@ -1,19 +1,4 @@
-<head></head>
-
- <body background= <%=@inspireimage%>>
-  <h1 class="quote"><%= @quote.content %>
-  <p>- <%= @quote.author %></p></h1>
-
- <div class="container">
-    <div class="row">
-
-        <div class="inspirebutton">
-          <a class="button" href="/">Go Back</a>
-        </div>
-
-    </div>
-  </div>
-</body>
-
-
-
+<div background="<%=@inspireimage%>">
+  <h1 class="quote"><%= @quote.content %></h1>
+  <p>&mdash;<%= @quote.author %></p>
+</div>
