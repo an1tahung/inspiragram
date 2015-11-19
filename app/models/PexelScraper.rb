@@ -7,13 +7,10 @@ class PexelScraper
   # PATH = "https://www.pexels.com/popular-photos/#content"
   class << self
     def get_random_pexel
-      start = Time.now
       pictures = Nokogiri::HTML(open(PATH)).xpath("//img/@src")
       index = rand(0..pictures.size-1)
       img = pictures[index].value.sub(/-medium/, '')
       too_small?(img) ? get_random_pexel : img
-      stop = Time.now
-      puts "#{stop-start}"
     end
 
     def too_small?(url)

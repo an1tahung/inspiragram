@@ -15,7 +15,9 @@ get '/' do
 end
 
 get '/inspiration' do
+  @inspireimage = PexelScraper.get_random_pexel
   erb :'inspiration/index'
+end
 
 get '/inspiration/new' do
   erb :new
