@@ -1,8 +1,8 @@
 <head></head>
 
- <body>
-
-  <h1 class="quote">Cool quote here.</h1>
+ <body background= <%=@inspireimage%>>
+  <h1 class="quote"><%= @quote.content %>
+  <p>- <%= @quote.author %></p></h1>
 
  <div class="container">
     <div class="row">
@@ -13,5 +13,7 @@
 
     </div>
   </div>
-
 </body>
+
+
+
