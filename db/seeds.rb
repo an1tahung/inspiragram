@@ -100,8 +100,7 @@ seedquotes = [
 seedquotes.each do |sq|
 
   Quote.create(
-    content: sq["content"],
-    author: sq["author"]
+    sq
   )
 
 end
