@@ -27,5 +27,18 @@ class PexelScraper
       end
       # puts "#{pictures.size} #{stop-start}"
     end
+
+    def cache_image(img)
+      Image.create(url: img)
+    end
+
+    def cache_category
+      path = "https://www.pexels.com/search/black-and-white/"
+      pictures = Nokogiri::HTML(open(path)).xpath("//img/@src")
+      pictures.each do |pic|
+        img = pic.value.sub(/-medium/, '')
+        cache_image(img) unless too_small?(img)
+      end
+    end
   end
 end
