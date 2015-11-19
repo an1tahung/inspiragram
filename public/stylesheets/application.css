@@ -1,0 +1,7 @@
+h1 {text-align: center;}
+
+.button,
+button,
+input[type="button"] { position: relative; }
+
+.inspirebutton { text-align: center; }
