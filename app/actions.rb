@@ -14,6 +14,9 @@ get '/' do
   erb :index
 end
 
+get '/inspiration' do
+  erb :'inspiration/index'
+
 get '/inspiration/new' do
   erb :new
 end
