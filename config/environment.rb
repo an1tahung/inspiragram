@@ -13,6 +13,7 @@ require 'open-uri'
 require 'rmagick'
 
 require 'pry'
+require 'byebug'
 
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
 APP_NAME = APP_ROOT.basename.to_s
