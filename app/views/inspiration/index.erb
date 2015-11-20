@@ -1,18 +1,13 @@
-<!-- 
- <div class="backimage" background= <%=@inspireimage%>>
-  <h1 class="quote"><%= @quote.content %></h1>
-  <p>&mdash;<%= @quote.author %></p>
-</div> -->
+<div id="backimage" style="background:url(<%=@inspireimage%>); background-size: cover; background-position: center center;">
+</div>
 
-<section id="hero" class="hero u-full-width">
-  <div class="hero-image"></div>
+<section>
+  <div></div>
   <div class="container centered">
     <div class="twelve columns">
-      <h1 class="separator" id="logo"><%= @quote.content %></h1>
+      <h1 id="logo"><%= @quote.content %></h1>
       <p id="logo">&mdash;<%= @quote.author %></p>
       <h2 id="logo"><a class="button" href="/">Go Back</a></h2>
     </div>
   </div>
 </section>
-
-
