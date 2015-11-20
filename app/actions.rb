@@ -16,7 +16,7 @@ before do
 end
 
 get '/' do
-  erb :index
+  erb :index, layout: nil
 end
 
 get '/inspiration' do
