@@ -157,6 +157,10 @@ seedquotes = [
   {
     content: "Partly, I like a bad reputation. But I also want a reputation of being a good person.",
     author: "Joan Jett"
+  },
+  {
+    content: "People are like drums. You hit them with a stick, they make noise."
+    author: "Unknown"
   }
 ]
 
