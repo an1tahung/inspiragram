@@ -13,6 +13,7 @@ gem 'tux'
 
 gem 'nokogiri'
 gem 'rmagick'
+gem 'rspec'
 
 group :development, :test do
   gem 'pry'
