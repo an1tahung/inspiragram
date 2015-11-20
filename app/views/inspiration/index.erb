@@ -1,13 +1,15 @@
 <div id="backimage" style="background:url(<%=@image.url%>); background-size: cover; background-position: center center;">
-</div>
+
 
 <section>
   <div></div>
   <div class="container centered">
     <div class="twelve columns">
-      <h1 id="logo"><%= @quote.content %></h1>
-      <p id="logo">&mdash;<%= @quote.author %></p>
+      <h1 class="quote" contenteditable><%= @quote.content %></h1>
+      <h3 class="quote" contenteditable>&mdash;<%= @quote.author %></h3>
       <h2 id="logo"><a class="button" href="/inspiration">Inspire Me</a></h2>
     </div>
   </div>
 </section>
+</div>
+
