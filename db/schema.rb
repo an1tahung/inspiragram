@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 20151119133740) do
 
   create_table "images", force: :cascade do |t|
     t.string   "url"
+    t.boolean  "bright"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

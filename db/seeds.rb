@@ -159,7 +159,7 @@ seedquotes = [
     author: "Joan Jett"
   },
   {
-    content: "People are like drums. You hit them with a stick, they make noise."
+    content: "People are like drums. You hit them with a stick, they make noise.",
     author: "Unknown"
   }
 ]
