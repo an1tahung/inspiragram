@@ -1,30 +1,39 @@
-#backimage {
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(/fonts/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
 
-   /*Background image is centered vertically and horizontally at all times */
-  
-   /*Background image doesn't tile */
+@keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#backimage {
+    /*Background image doesn't tile */
   background-repeat: no-repeat;
   
-  /*Background image is fixed in the viewport so that it doesn't move when 
-  /*the content's height is greater than the image's height */
+ /* Background image is fixed in the viewport so that it doesn't move when 
+  the content's height is greater than the image's height */
   background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based
-     on the container's size */
-  
+ 
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #fbfbfb;
-
   width: 100%;
   height: 100%;
-
   position: absolute;
-
+  
+  
+  animation-name: fade-in;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  /*animation-iteration-count: 1;*/
 }
 
-
-.buttonbar {
+#buttonbar {
   text-align: center;
   position: absolute;
   width: 100%;
@@ -32,7 +41,20 @@
   left:0;
 }
 
-#logo {
+.button {
+  border: 3px solid #1a1a66;
+}
+
+.quote {
+  text-align: center;
+  color: white;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  animation-name: fade-in;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+}
+
+#logo{ 
   text-align: center;
 }
 
@@ -54,4 +76,5 @@
   -o-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 }
+
 

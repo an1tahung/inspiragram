@@ -33,10 +33,6 @@ post '/inspiration/new' do
     author: params[:author]
     )
   if @quote.save
-    session[:errors] = nil
     redirect '/'
-  else
-    session[:errors] = "You have to have an inspirational quote you troglodyte."
-    redirect '/inspiration/new'
   end
 end
