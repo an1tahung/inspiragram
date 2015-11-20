@@ -1,8 +1,11 @@
 # Homepage (Root path)
 helpers do
   def handle_errors
-    @errors = session[:errors] if session[:errors]
+    if session[:errors]
+    @errors = session[:errors] 
+  else
     session[:errors] = nil
+  end
   end
 
   def load_image
@@ -38,6 +41,10 @@ post '/inspiration/new' do
     author: params[:author]
     )
   if @quote.save
+    session[:errors] = nil
     redirect '/'
+  else
+    session[:errors] = "You have to have an inspirational quote you troglodyte."
+    redirect '/inspiration/new'
   end
 end
