@@ -105,7 +105,7 @@ seedquotes.each do |sq|
 end
 
 
-urls = ["https://static.pexels.com/photos/1380/black-and-white-city-skyline-buildings-medium.jpg",
+urls = ["https://static.pexels.com/photos/1380/black-and-white-city-skyline-buildings.jpg",
 "https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg",
 "https://static.pexels.com/photos/1139/black-and-white-city-skyline-buildings.jpg",
 "https://static.pexels.com/photos/1984/black-and-white-city-man-people.jpg",

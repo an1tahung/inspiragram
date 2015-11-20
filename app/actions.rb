@@ -2,9 +2,10 @@
 helpers do
   def handle_errors
     if session[:errors]
-    @errors = session[:errors] 
-  else
-    session[:errors] = nil
+      @errors = session[:errors] 
+    else
+      session[:errors] = nil
+    end
   end
 end
 
