@@ -1,11 +1,7 @@
 # Homepage (Root path)
 helpers do
   def handle_errors
-    if session[:errors]
-      @errors = session[:errors] 
-    else
-      session[:errors] = nil
-    end
+    session[:errors] ? @errors = session[:errors] : session[:errors] = nil
   end
 end
 

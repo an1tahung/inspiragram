@@ -3,6 +3,10 @@ class PexelScraper
   path = "https://www.pexels.com/search/"
   query = ["HD%20wallpaper/", "animals/", "nature/", "black-and-white/"]
   PATH = path << query[rand(0..3)]
+  MIN_HEIGHT = 1080
+  MIN_WIDTH = 1920
+  MAX_LUMINOSITY = 255
+  BRIGHT_THRESH = 50
 
   # PATH = "https://www.pexels.com/popular-photos/#content"
   class << self
@@ -14,9 +18,8 @@ class PexelScraper
     end
 
     def too_small?(url)
-      img = Magick::Image::read(url)[0]
-      # puts "This image is #{img.columns}x#{img.rows} pixels"
-      img.columns < 1920 || img.rows < 1080
+      img = Magick::Image::read(url).first
+      img.columns < MIN_HEIGHT || img.rows < MIN_WIDTH
     end
 
     def get_all_pexels
@@ -25,20 +28,30 @@ class PexelScraper
         img = src.value.sub(/-medium/, '')
         pictures << img unless too_small?(img)
       end
-      # puts "#{pictures.size} #{stop-start}"
     end
 
-    def cache_image(img)
-      Image.create(url: img)
+    def cache_image(url, bright)
+      Image.create(url: img, bright: bright)
     end
 
     def cache_category
-      path = "https://www.pexels.com/search/black-and-white/"
+      query = ["HD%20wallpaper/", "animals/", "nature/", "black-and-white/"]
+      path = "https://www.pexels.com/search/HD%20wallpaper//"
       pictures = Nokogiri::HTML(open(path)).xpath("//img/@src")
       pictures.each do |pic|
-        img = pic.value.sub(/-medium/, '')
-        cache_image(img) unless too_small?(img)
+        url = pic.value.sub(/-medium/, '')
+        img = Magick::Image::read(url)[0]
+        cache_image(url, bright?(img)) unless too_small?(img)
       end
+    end
+
+    def bright?(img)
+      image =  Magick::Image.read(img).first
+      pix = img.scale(1, 1)
+      average_color = pix.pixel_color(0,0)
+      hsla = average_color.to_hsla
+      brightness = hsla[2] / MAX_LUMINOSITY * 100
+      brightness > BRIGHT_THRESH
     end
   end
 end

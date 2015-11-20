@@ -2,12 +2,11 @@
 </div>
 
 <section>
-  <div></div>
   <div class="container centered">
-    <div class="twelve columns">
-      <h1 id="logo"><%= @quote.content %></h1>
-      <p id="logo">&mdash;<%= @quote.author %></p>
-      <h2 id="logo"><a class="button" href="/inspiration">Inspire Me</a></h2>
+    <div class="twelve columns" id="quote">
+      <h1 class="quote_text"><%= @quote.content %></h1>
+      <p class="quote_text">&mdash;<%= @quote.author %></p>
+      <h2 id="quote_button"><a class="button" href="/inspiration">Inspire Me</a></h2>
     </div>
   </div>
 </section>
