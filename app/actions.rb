@@ -16,13 +16,13 @@ before do
 end
 
 get '/' do
-  erb :index, layout: nil
+  erb :index
 end
 
 get '/inspiration' do
   @quote = Quote.find_random
   if request.xhr?
-    erb :'inspiration/index', layout: nil
+    erb :'inspiration/index'
   else
     erb :'inspiration/index'
   end
