@@ -93,6 +93,70 @@ seedquotes = [
   {
     content: "Heroes are ordinary people who make themselves extraordinary.",
     author: "Gerard Way"
+  },
+  {
+    content: "There's a difference between solitude and loneliness.",
+    author: "Dame Maggie Smith"
+  },
+  {
+    content: "Speak your mind, even if your voice shakes.",
+    author: "Dame Maggie Smith"
+  },
+  {
+    content: "What is success? I think it is a mixture of having a flair for the thing that you are doing; knowing that it is not enough, that you have got to have hard work and a certain sense of purpose.",
+    author: "Margaret Thatcher"
+  },
+  {
+    content: "Disciplining yourself to do what you know is right and important, although difficult, is the highroad to pride, self-esteem, and personal satisfaction.",
+    author: "Margaret Thatcher"
+  },
+  {
+    content: "You may have to fight a battle more than once to win it.",
+    author: "Margaret Thatcher"
+  },
+  {
+    content: "He who laughs most, learns best.",
+    author: "John Cleese"
+  },
+  {
+    content: "I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear.",
+    author: "Nelson Mandela"
+  },
+  {
+    content: "A good head and a good heart are always a formidable combination.",
+    author: "Nelson Mandela"
+  },
+  {
+    content: "It always seems impossible until it's done.",
+    author: "Nelson Mandela"
+  },
+  {
+    content: "I don't know where I'm going from here, but I promise it won't be boring.",
+    author: "David Bowie"
+  },
+  {
+    content: "As you get older, the questions come down to about two or three. How long? And what do I do with the time I've got left?",
+    author: "David Bowie"
+  },
+  {
+    content: "I won't be a rock star. I will be a legend.",
+    author: "Freddie Mercury"
+  },
+  {
+    content: "Talent is cheaper than table salt. What separates the talented individual from the successful one is a lot of hard work.",
+    author: "Stephen King"
+  },
+  {
+    content: "If you really believe in yourself, you cannot listen to other people.",
+    author: "Joan Jett"
+  },
+  {
+    content: "People like to tear you down. People are always going to take shots. You've just got to go for it.",
+    author: "Joan Jett"
+  },
+  {
+    content: "Partly, I like a bad reputation. But I also want a reputation of being a good person.",
+    author: "Joan Jett"
   }
 ]
 
