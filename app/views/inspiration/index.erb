@@ -1,14 +1,22 @@
 <div id="backimage" style="background:url(<%=@image.url%>); background-size: cover; background-position: center center;">
 
-
 <section>
+  <!-- <div></div>  -->
   <div class="container centered">
     <div class="twelve columns">
-      <h1 class="quote" contenteditable><%= @quote.content %></h1>
-      <h3 class="quote" contenteditable>&mdash;<%= @quote.author %></h3>
+
+      <% if @image.bright %>
+        <h1 class="quotedark" contenteditable><%= @quote.content %></h1>
+        <h3 class="quotedark" contenteditable>&mdash;<%= @quote.author %></h3>
+      <% else %>
+        <h1 class="quote" contenteditable><%= @quote.content %></h1>
+        <h3 class="quote" contenteditable>&mdash;<%= @quote.author %></h3>
+      <% end %>
+      
       <h2 id="logo"><a class="button" href="/inspiration">Inspire Me</a></h2>
     </div>
   </div>
 </section>
+
 </div>
 
