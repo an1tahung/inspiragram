@@ -226,10 +226,6 @@ urls = [{
     bright:  true
   },
   {
-    url: "https://static.pexels.com/photos/3158/black-and-white-africa-animals-wilderness.jpg", 
-    bright:  false
-  },
-  {
     url: "https://static.pexels.com/photos/16023/pexels-photo.jpg", 
     bright:  false
   },
@@ -339,10 +335,6 @@ urls = [{
   },
   {
     url: "https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg", 
-    bright:  true
-  },
-  {
-    url: "https://static.pexels.com/photos/7816/pexels-photo.jpg", 
     bright:  true
   },
   {
