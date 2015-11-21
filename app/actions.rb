@@ -16,11 +16,11 @@ end
 get '/inspiration' do
   @quote = Quote.find_random
   @image = Image.find_random
-  if request.xhr?
-    erb :'inspiration/index', layout: nil
-  else
-    erb :'inspiration/index'
-  end
+  # if request.xhr?
+  #   erb :'inspiration/index', layout: nil
+  # else
+  erb :'inspiration/index'
+  # end
 end
 
 get '/inspiration/new' do

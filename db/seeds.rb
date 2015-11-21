@@ -223,7 +223,7 @@ urls = [{
   },
   {
     url: "https://static.pexels.com/photos/4602/jumping-cute-playing-animals.jpg", 
-    bright:  true
+    bright:  false
   },
   {
     url: "https://static.pexels.com/photos/16023/pexels-photo.jpg", 
@@ -254,10 +254,6 @@ urls = [{
     bright:  true
   },
   {
-    url: "https://static.pexels.com/photos/2570/snow-forest-trees-winter.jpg", 
-    bright:  true
-  },
-  {
     url: "https://static.pexels.com/photos/1209/sky-flying-animals-birds.jpg", 
     bright:  false
   },
@@ -282,10 +278,6 @@ urls = [{
     bright:  true
   },
   {
-    url: "https://static.pexels.com/photos/1005/landscape-mountains-nature-man.jpg", 
-    bright:  true
-  },
-  {
     url: "https://static.pexels.com/photos/597/landscape-nature-sunset-clouds.jpg", 
     bright:  false
   },
@@ -306,20 +298,8 @@ urls = [{
     bright:  true
   },
   {
-    url: "https://static.pexels.com/photos/2422/sky-earth-galaxy-universe.jpg", 
-    bright:  false
-  },
-  {
-    url: "https://static.pexels.com/photos/2156/sky-earth-space-working.jpg", 
-    bright:  false
-  },
-  {
     url: "https://static.pexels.com/photos/6675/flight-mountains-sky-flying.jpeg", 
     bright:  true
-  },
-  {
-    url: "https://static.pexels.com/photos/6657/snow-landscape-nature-sky.jpeg", 
-    bright:  false
   },
   {
     url: "https://static.pexels.com/photos/5110/road-dawn-mountains-sky.jpeg", 
