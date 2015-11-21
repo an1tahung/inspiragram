@@ -46,6 +46,15 @@
   color: #33ccff;
 }
 
+.quotedark {
+  text-align: center;
+  color: black;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  animation-name: fade-in;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+}
+
 .quote {
   text-align: center;
   color: white;
@@ -61,14 +70,6 @@
 
 #logo{ 
   text-align: center;
-}
-
-#quote {
-  text-align: center;
-}
-
-.quote-text {
-
 }
 
 .centered {
