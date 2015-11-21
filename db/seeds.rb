@@ -173,62 +173,187 @@ seedquotes.each do |sq|
 end
 
 
-urls = ["https://static.pexels.com/photos/1380/black-and-white-city-skyline-buildings.jpg",
-"https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg",
-"https://static.pexels.com/photos/1139/black-and-white-city-skyline-buildings.jpg",
-"https://static.pexels.com/photos/1984/black-and-white-city-man-people.jpg",
-"https://static.pexels.com/photos/8252/hand.jpg",
-"https://static.pexels.com/photos/1518/black-and-white-city-bird-people.jpg",
-"https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg",
-"https://static.pexels.com/photos/9137/night-vintage-music-bokeh.jpg",
-"https://static.pexels.com/photos/11392/pexels-photo-11392.jpeg",
-"https://static.pexels.com/photos/222/black-and-white-businessman-man-suit.jpg",
-"https://static.pexels.com/photos/8268/pexels-photo.jpg",
-"https://static.pexels.com/photos/7816/pexels-photo.jpg",
-"https://static.pexels.com/photos/9687/pexels-photo.jpg",
-"https://static.pexels.com/photos/6663/desk-white-black-header.jpg",
-"https://static.pexels.com/photos/3351/black-and-white-person-woman-girl.jpg",
-"https://static.pexels.com/photos/6482/black-and-white-man-person-hands.jpg",
-"https://static.pexels.com/photos/1562/italian-landscape-mountains-nature.jpg",
-"https://static.pexels.com/photos/5358/sea-beach-holiday-vacation.jpg",
-"https://static.pexels.com/photos/7919/pexels-photo.jpg",
-"https://static.pexels.com/photos/2752/city-sunny-people-street.jpg",
-"https://static.pexels.com/photos/215/road-sky-clouds-cloudy.jpg",
-"https://static.pexels.com/photos/1848/nature-sunny-red-flowers.jpg",
-"https://static.pexels.com/photos/1341/blue-abstract-glass-balls.jpg",
-"https://static.pexels.com/photos/479/landscape-nature-sunset-trees.jpg",
-"https://static.pexels.com/photos/1188/city-landmark-lights-night.jpg",
-"https://static.pexels.com/photos/5156/people-eiffel-tower-lights-night.jpg",
-"https://static.pexels.com/photos/3847/jetty-landing-stage-sea-sky.jpeg",
-"https://static.pexels.com/photos/1852/dawn-landscape-mountains-nature.jpg",
-"https://static.pexels.com/photos/5143/cute-animals-easter-chicken.jpg",
-"https://static.pexels.com/photos/4602/jumping-cute-playing-animals.jpg",
-"https://static.pexels.com/photos/3158/black-and-white-africa-animals-wilderness.jpg",
-"https://static.pexels.com/photos/14774/pexels-photo.jpg",
-"https://static.pexels.com/photos/16023/pexels-photo.jpg",
-"https://static.pexels.com/photos/4950/sky-flying-animals-birds.jpeg",
-"https://static.pexels.com/photos/4933/lake-animals-dogs-pets.jpg",
-"https://static.pexels.com/photos/2971/farm-animals-horses.jpg",
-"https://static.pexels.com/photos/4362/food-sea-flying-ocean.jpeg",
-"https://static.pexels.com/photos/1692/landscape-mountains-nature-people.jpg",
-"https://static.pexels.com/photos/1177/wood-jetty-landing-stage-sea.jpg",
-"https://static.pexels.com/photos/4111/nature-farm-animals-horses.jpeg",
-"https://static.pexels.com/photos/741/cute-animals-monkeys-young.jpg",
-"https://static.pexels.com/photos/2570/snow-forest-trees-winter.jpg",
-"https://static.pexels.com/photos/1209/sky-flying-animals-birds.jpg",
-"https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg",
-"https://static.pexels.com/photos/6550/nature-sky-sunset-man.jpeg",
-"https://static.pexels.com/photos/9692/pexels-photo.jpeg",
-"https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg",
-"https://static.pexels.com/photos/363/nature-sunny-people-clouds.jpg",
-"https://static.pexels.com/photos/8884/pexels-photo.jpeg",
-"https://static.pexels.com/photos/1005/landscape-mountains-nature-man.jpg",
-"https://static.pexels.com/photos/597/landscape-nature-sunset-clouds.jpg",
-"https://static.pexels.com/photos/12057/pexels-photo-12057.jpeg",
-"https://static.pexels.com/photos/403/nature-sunset-person-woman.jpg"]
+urls = [{
+    url: "https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/1562/italian-landscape-mountains-nature.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/5358/sea-beach-holiday-vacation.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/7919/pexels-photo.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/2752/city-sunny-people-street.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/215/road-sky-clouds-cloudy.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/1341/blue-abstract-glass-balls.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/479/landscape-nature-sunset-trees.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/1188/city-landmark-lights-night.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/5156/people-eiffel-tower-lights-night.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/3847/jetty-landing-stage-sea-sky.jpeg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/1852/dawn-landscape-mountains-nature.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/4602/jumping-cute-playing-animals.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/3158/black-and-white-africa-animals-wilderness.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/16023/pexels-photo.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/4950/sky-flying-animals-birds.jpeg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/2971/farm-animals-horses.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/1177/wood-jetty-landing-stage-sea.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/1692/landscape-mountains-nature-people.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/741/cute-animals-monkeys-young.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/4111/nature-farm-animals-horses.jpeg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/2570/snow-forest-trees-winter.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/1209/sky-flying-animals-birds.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/6550/nature-sky-sunset-man.jpeg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/9692/pexels-photo.jpeg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/8884/pexels-photo.jpeg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/363/nature-sunny-people-clouds.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/1005/landscape-mountains-nature-man.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/597/landscape-nature-sunset-clouds.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/12057/pexels-photo-12057.jpeg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/403/nature-sunset-person-woman.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/7480/sky-night-stars.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/6629/mountains-nature-sky-sunny.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/2422/sky-earth-galaxy-universe.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/2156/sky-earth-space-working.jpg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/6675/flight-mountains-sky-flying.jpeg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/6657/snow-landscape-nature-sky.jpeg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/5110/road-dawn-mountains-sky.jpeg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/5056/sky-sunset-night-space.jpeg", 
+    bright:  false
+  },
+  {
+    url: "https://static.pexels.com/photos/8252/hand.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/7816/pexels-photo.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/6663/desk-white-black-header.jpg", 
+    bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/3797/black-and-white-sport-fight-boxer.jpg", 
+    bright:  true
+  }]
 
-url_hash = urls.map { |link| {url: link} }
-
-url_hash.each do |su|
+urls.each do |su|
   Image.create(su)
 end
