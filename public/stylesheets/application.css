@@ -63,6 +63,14 @@
   text-align: center;
 }
 
+#quote {
+  text-align: center;
+}
+
+.quote-text {
+
+}
+
 .centered {
   position: absolute;
   top: 50%;
