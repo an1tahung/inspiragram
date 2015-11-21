@@ -8,12 +8,12 @@
       <% if @image.bright %>
         <h1 class="quotedark" contenteditable><%= @quote.content %></h1>
         <h3 class="quotedark" contenteditable>&mdash;<%= @quote.author %></h3>
+        <h2 id="logo"><a class="button" id="darkbutton" href="/inspiration">Inspire Me</a></h2>
       <% else %>
         <h1 class="quote" contenteditable><%= @quote.content %></h1>
         <h3 class="quote" contenteditable>&mdash;<%= @quote.author %></h3>
+        <h2 id="logo"><a class="button" href="/inspiration">Inspire Me</a></h2>
       <% end %>
-      
-      <h2 id="logo"><a class="button" href="/inspiration">Inspire Me</a></h2>
     </div>
   </div>
 </section>

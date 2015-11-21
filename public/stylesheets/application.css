@@ -32,16 +32,31 @@
 }
 
 .button {
+  border: 3px solid #33ccff;;
+  color: #33ccff;
+}
+
+.button:hover {
+  border-color: #1a1a66;;
+  color: #1a1a66;;
+}
+
+.button:focus {
+  border-color: #1a1a66;;
+  color: #1a1a66;
+}
+
+#darkbutton {
   border: 3px solid #1a1a66;
   color: #1a1a66;
 }
 
-.button:hover {
+#darkbutton:hover {
   border-color: #33ccff;
   color: #33ccff;
 }
 
-.button:focus {
+#darkbutton:focus {
   border-color: #33ccff;
   color: #33ccff;
 }
@@ -53,6 +68,10 @@
   animation-name: fade-in;
   animation-duration: 3s;
   animation-timing-function: ease;
+}
+
+.quotedark:hover {
+  cursor: url(/images/pencil54.png), auto;
 }
 
 .quote {
