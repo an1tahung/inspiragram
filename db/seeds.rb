@@ -302,6 +302,10 @@ urls = [{
     bright:  true
   },
   {
+    url: "https://static.pexels.com/photos/8633/nature-tree-green-pine.jpg"
+    bright: false
+  },
+  {
     url: "https://static.pexels.com/photos/5110/road-dawn-mountains-sky.jpeg", 
     bright:  false
   },
@@ -316,6 +320,45 @@ urls = [{
   {
     url: "https://static.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg", 
     bright:  true
+  },
+  {
+    url: "https://static.pexels.com/photos/17679/pexels-photo.jpg"
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/12526/pexels-photo-12526.jpeg",
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/10467/pexels-photo-10467.jpeg",
+    bright: true
+  },
+    url: "https://static.pexels.com/photos/3704/animal-close-up-view-africa-wilderness.jpg"
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/9381/animals-black-high-quality.jpg"
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/11434/Life-of-Pix-free-stock-photos-sunset-sea-light-mikewilson.jpeg"
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/12211/pexels-photo-12211.jpeg"
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/10656/c4f497772338464a5d4e4109966e02f7.jpg"
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/6657/snow-landscape-nature-sky.jpeg"
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/15286/pexels-photo.jpg"
+    bright: false
   },
   {
     url: "https://static.pexels.com/photos/6663/desk-white-black-header.jpg", 
