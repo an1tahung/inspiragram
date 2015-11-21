@@ -223,10 +223,6 @@ urls = [{
   },
   {
     url: "https://static.pexels.com/photos/4602/jumping-cute-playing-animals.jpg", 
-    bright:  true
-  },
-  {
-    url: "https://static.pexels.com/photos/3158/black-and-white-africa-animals-wilderness.jpg", 
     bright:  false
   },
   {
@@ -258,10 +254,6 @@ urls = [{
     bright:  true
   },
   {
-    url: "https://static.pexels.com/photos/2570/snow-forest-trees-winter.jpg", 
-    bright:  true
-  },
-  {
     url: "https://static.pexels.com/photos/1209/sky-flying-animals-birds.jpg", 
     bright:  false
   },
@@ -286,10 +278,6 @@ urls = [{
     bright:  true
   },
   {
-    url: "https://static.pexels.com/photos/1005/landscape-mountains-nature-man.jpg", 
-    bright:  true
-  },
-  {
     url: "https://static.pexels.com/photos/597/landscape-nature-sunset-clouds.jpg", 
     bright:  false
   },
@@ -310,20 +298,12 @@ urls = [{
     bright:  true
   },
   {
-    url: "https://static.pexels.com/photos/2422/sky-earth-galaxy-universe.jpg", 
-    bright:  false
-  },
-  {
-    url: "https://static.pexels.com/photos/2156/sky-earth-space-working.jpg", 
-    bright:  false
-  },
-  {
     url: "https://static.pexels.com/photos/6675/flight-mountains-sky-flying.jpeg", 
     bright:  true
   },
   {
-    url: "https://static.pexels.com/photos/6657/snow-landscape-nature-sky.jpeg", 
-    bright:  false
+    url: "https://static.pexels.com/photos/8633/nature-tree-green-pine.jpg",
+    bright: false
   },
   {
     url: "https://static.pexels.com/photos/5110/road-dawn-mountains-sky.jpeg", 
@@ -342,8 +322,44 @@ urls = [{
     bright:  true
   },
   {
-    url: "https://static.pexels.com/photos/7816/pexels-photo.jpg", 
-    bright:  true
+    url: "https://static.pexels.com/photos/17679/pexels-photo.jpg",
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/12526/pexels-photo-12526.jpeg",
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/10467/pexels-photo-10467.jpeg",
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/3704/animal-close-up-view-africa-wilderness.jpg",
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/9381/animals-black-high-quality.jpg",
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/11434/Life-of-Pix-free-stock-photos-sunset-sea-light-mikewilson.jpeg",
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/12211/pexels-photo-12211.jpeg",
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/10656/c4f497772338464a5d4e4109966e02f7.jpg",
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/6657/snow-landscape-nature-sky.jpeg",
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/15286/pexels-photo.jpg",
+    bright: false
   },
   {
     url: "https://static.pexels.com/photos/6663/desk-white-black-header.jpg", 
