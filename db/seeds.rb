@@ -161,6 +161,82 @@ seedquotes = [
   {
     content: "People are like drums. You hit them with a stick, they make noise.",
     author: "Unknown"
+  },
+  {
+    content: "Keep your face to the sunshine and you cannot see a shadow.",
+    author: "Helen Keller"
+  },
+  {
+    content: "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
+    author: "Helen Keller"
+  },
+  {
+    content: "Life is either a great adventure or nothing.",
+    author: "Helen Keller"
+  },
+  {
+    content: "Anything's possible if you've got enough nerve.",
+    author: "J.K. Rowling"
+  },
+  {
+    content: "Never be ashamed! There's some who'll hold it against you, but they're not worth bothering with.",
+    author: "J.K. Rowling"
+  },
+  {
+    content: "Still round the corner there may wait, a new road or a secret gate.",
+    author: "J.R.R. Tolkien"
+  },
+  {
+    content: "Not all those who wander are lost.",
+    author: "J.R.R. Tolkien"
+  },
+  {
+    content: "We have all a better guide in ourselves, if we would attend to it, than any other person can be.",
+    author: "Jane Austen"
+  },
+  {
+    content: "What is right to be done cannot be done too soon.",
+    author: "Jane Austen"
+  },
+  {
+    content: "Flying is learning how to throw yourself at the ground and miss.",
+    author: "Douglas Adams"
+  },
+  {
+    content: "It is a mistake to think you can solve any major problems just with potatoes.",
+    author: "Douglas Adams"
+  },
+  {
+    content: "We have normality. I repeat, we have normality. Anything you still can't cope with is therefore your own problem.",
+    author: "Douglas Adams"
+  },
+  {
+    content: "In three words I can sum up everything I've learned about life: it goes on.",
+    author: "Robert Frost"
+  },
+  {
+    content: "The best way out is always through.",
+    author: "Robert Frost"
+  },
+  {
+    content: "Perfect is boring: Beauty is irregular.",
+    author: "Gloria Steinem"
+  },
+  {
+    content: "Always forgive your enemies - nothing annoys them so much.",
+    author: "Oscar Wilde"
+  },
+  {
+    content: "Life can only be understood backwards; but it must be lived forwards.",
+    author: "Soren Kierkegaard"
+  },
+  {
+    content: "To dare is to lose one's footing momentarily. Not to dare is to lose oneself.",
+    author: "Soren Kierkegaard"
+  },
+  {
+    content: "Anxiety is the dizziness of freedom.",
+    author: "Soren Kierkegaard"
   }
 ]
 
@@ -173,7 +249,8 @@ seedquotes.each do |sq|
 end
 
 
-urls = [{
+urls = [
+  {
     url: "https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg", 
     bright:  true
   },
@@ -368,7 +445,56 @@ urls = [{
   {
     url: "https://static.pexels.com/photos/3797/black-and-white-sport-fight-boxer.jpg", 
     bright:  true
-  }]
+  },
+  {
+    url: "https://static.pexels.com/photos/17796/christmas-xmas-gifts-presents.jpg",
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/17727/pexels-photo.jpg",
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/17658/pexels-photo.jpg",
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/15239/flower-roses-red-roses-bloom.jpg",
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/8032/pexels-photo.jpg",
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/8990/night-trees-milky-way-stars.jpg",
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/8183/pexels-photo.jpg",
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/16040/pexels-photo.jpg",
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/676/nature-lights-night-space.jpg",
+    bright: false
+  },
+  {
+    url: "https://static.pexels.com/photos/4927/sea-beach-vacation-sand.jpg",
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/3853/sunny-sand-desert-hiking.jpeg",
+    bright: true
+  },
+  {
+    url: "https://static.pexels.com/photos/1135/stairs-black-and-white-water-wall.jpg",
+    bright: true
+  }
+]
 
 urls.each do |su|
   Image.create(su)
