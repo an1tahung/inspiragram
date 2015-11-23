@@ -16,23 +16,5 @@ end
 get '/inspiration' do
   @quote = Quote.find_random
   @image = Image.find_random
-  # if request.xhr?
-  #   erb :'inspiration/index', layout: nil
-  # else
   erb :'inspiration/index'
-  # end
-end
-
-get '/inspiration/new' do
-  erb :new
-end
-
-post '/inspiration/new' do
-  @quote = Quote.new(
-    content: params[:content],
-    author: params[:author]
-    )
-  if @quote.save
-    redirect '/'
-  end
 end
