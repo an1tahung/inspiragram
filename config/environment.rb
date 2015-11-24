@@ -12,7 +12,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'rmagick'
 
-require 'pry'
+require 'pry' if development?
 require 'byebug'
 require 'rspec'
 
